@@ -1,0 +1,32 @@
+.gallery-image img {
+    transition: transform 0.3s ease;
+}
+
+.gallery-image img:hover {
+    transform: scale(1.05);
+}
+
+.gallery-image img {
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+footer {
+    background-color: #343a40;
+}
+
+footer a {
+    color: #adb5bd;
+}
+
+footer a:hover {
+    color: #f8f9fa;
+}
+
+footer .input-group input {
+    border-radius: 0;
+}
+
+footer .input-group .btn {
+    border-radius: 0;
+}
